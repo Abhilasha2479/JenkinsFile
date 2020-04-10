@@ -13,7 +13,7 @@ pipeline {
             steps {
                 @ECHO OFF
                 ECHO Test is successfull
-                PAUSE'
+                PAUSE
             }
         }
         stage('Deploy') {
