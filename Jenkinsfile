@@ -4,23 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                ECHO OFF
-                ECHO Build is successfull
-                PAUSE
+                echo 'Building..'
             }
         }
         stage('Test') {
             steps {
-                ECHO OFF
-                ECHO Test is successfull
-                PAUSE
+                echo 'Testing..'
             }
         }
         stage('Deploy') {
             steps {
-                ECHO OFF
-                ECHO Deploy is successfull
-                PAUSE
+                echo 'Deploying....'
             }
         }
     }
